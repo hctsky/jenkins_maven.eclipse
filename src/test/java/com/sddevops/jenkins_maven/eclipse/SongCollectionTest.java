@@ -39,7 +39,7 @@ class SongCollectionTest {
 	}
 
 	/**
-	 * @throws java.lang.Exception
+	 * @throws java.lang.Exception testing
 	 */
 	@AfterEach
 	void tearDown() throws Exception {
