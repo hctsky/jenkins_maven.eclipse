@@ -1,5 +1,6 @@
-pipeline {
+pipeline{
 	agent any
+	tools { 
         maven 'maven 3.9.9' 
         jdk 'OpenJdk11' 
     }
@@ -24,7 +25,7 @@ pipeline {
 		}
 	}
 } 
-	
+
 	
 	
 	
